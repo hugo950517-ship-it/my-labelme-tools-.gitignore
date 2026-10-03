@@ -1,8 +1,14 @@
+# 防止誤傳數據集與圖片
 *.png
 *.jpg
+*.jpeg
+*.bmp
 *.json
-__pycache__/
-.vscode/
 
-if __name__ == "__main__":
-    run_interpolation()
+# Python 快取與環境檔案
+__pycache__/
+*.pyc
+.venv/
+env/
+.vscode/
+.idea/
